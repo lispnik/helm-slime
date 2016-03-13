@@ -56,7 +56,10 @@
 (require 'slime-c-p-c)
 (require 'slime-fuzzy)
 (require 'slime-repl)
+(require 'cl-lib)
 
+(eval-when-compile
+  (require 'cl))
 
 (defvar ascsa-complete-target "")
 
